@@ -1,0 +1,32 @@
+@HateoasDemo_HostAddress = http://localhost:5000
+
+### Get all books
+GET {{HateoasDemo_HostAddress}}/api/books
+Accept: application/json
+
+### Get a specific book by ID
+GET {{HateoasDemo_HostAddress}}/api/books/1
+Accept: application/json
+
+### Borrow a book
+POST {{HateoasDemo_HostAddress}}/api/books/1/borrow
+Accept: application/json
+
+### Return a borrowed book
+POST {{HateoasDemo_HostAddress}}/api/books/1/return
+Accept: application/json
+
+### Update a book
+PUT {{HateoasDemo_HostAddress}}/api/books/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "The Great Gatsby - Updated",
+  "author": "F. Scott Fitzgerald",
+  "isAvailable": true
+}
+
+### Delete a book
+DELETE {{HateoasDemo_HostAddress}}/api/books/1
+Accept: application/json
