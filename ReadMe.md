@@ -2,7 +2,7 @@
 
 A demonstration project showing how to implement HATEOAS (Hypermedia as the Engine of Application State) in an ASP.NET Core Minimal API application.
 
-It’s a companion to [this blog post](https://ronnydelgado.com), where I dive deeper.
+It’s a companion to [this blog post](https://www.ronnydelgado.com/my-blog/hateoas-in-minimal-apis-a-complete-guide), where I dive deeper.
 
 ## Project Overview
 
